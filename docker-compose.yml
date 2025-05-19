@@ -1,0 +1,13 @@
+version: '3.9'  # docker-compose 版本
+
+services:
+  icons-pack:
+    container_name: icons-pack
+    image: verky/icon-pack:latest
+    environment:
+      - SITE_NAME=icons
+    ports:
+      - '5000:5000'  # 映射本地端口5000到容器端口5000
+    volumes:
+      - ./icons:/app/images  # 本地目录映射到容器中的/app/images
+    restart: always  # 容器自动重启策略
