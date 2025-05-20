@@ -1,6 +1,4 @@
-### `README.md`
 
-````markdown
 # Icons Pack 服务
 
 该项目使用 Docker 部署一个图标打包服务，容器镜像为 `verky/icon-pack:latest`。
@@ -11,7 +9,7 @@
 
 ### 1. 克隆项目
 ```bash
-git clone <仓库地址>
+git clone git@github.com:baozaodetudou/icons.git
 cd icons
 ````
 
@@ -110,9 +108,6 @@ docker-compose down
 
 如有问题或建议，请联系开发者。
 
-```
-
 ---
 
 这个 `README.md` 文件详细说明了项目的安装、使用和常见操作。如果需要进一步调整或添加其他信息，请告诉我！😊
-```
